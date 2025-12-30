@@ -1,0 +1,6 @@
+CREATE TABLE Doctor
+(
+    DoctorID INT IDENTITY(1,1) PRIMARY KEY,
+    DoctorName NVARCHAR(50) NOT NULL,
+    DoctorFamily NVARCHAR(50) NOT NULL
+);
